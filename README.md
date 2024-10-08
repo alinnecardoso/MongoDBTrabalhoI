@@ -24,7 +24,7 @@ Criar uma plataforma que facilite a comunicação entre restaurantes e empresas,
 
 <details>
   <summary>Diagrama Lógico</summary>
-  <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/Conceitual_Trabalho.png" alt="Diagrama MER" />
+  <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/L%C3%B3gico_Trabalho.png" />
 </details>
 <details>
   <summary>Esquemas das coleções em JSON</summary>
