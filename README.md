@@ -9,23 +9,30 @@ Criar uma plataforma que facilite a comunicação entre restaurantes e empresas,
 
 ### 🚀 **Funcionalidades**
 
-* **Lista de Chamada**: Funcionários escolhem suas opções de almoço diretamente do menu online do restaurante.
+* **5 consultas básicas com operador lógico e de comparação**: Funcionários escolhem suas opções de almoço diretamente do menu online do restaurante.
 
-* **Múltiplas Opções de Restaurantes**: Empresas podem escolher entre diversos restaurantes parceiros.
+* **2 consultas com $lookup**: Empresas podem escolher entre diversos restaurantes parceiros.
 
-* **Prazos e Preços Negociados**: Empresas podem fechar contratos com restaurantes para garantir preços melhores em pedidos frequentes.
-
-* **Visibilidade para Restaurantes**: Plataforma serve como vitrine online para restaurantes expandirem sua base de clientes.
-
+* **Dados Geo: 2 consultas**: Empresas podem fechar contratos com restaurantes para garantir preços melhores em pedidos frequentes.
 
 ## 🎬 Apresentação
 
 <details>
-  <summary>Diagrama MER</summary>
+  <summary>Diagrama Conceitual</summary>
+  <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/Conceitual_Trabalho.png" alt="Diagrama MER" />
+</details>
+
+<details>
+  <summary>Diagrama Lógico</summary>
   <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/Conceitual_Trabalho.png" alt="Diagrama MER" />
 </details>
 <details>
   <summary>Esquemas das coleções em JSON</summary>
+  Tela do Restaurante
+</details>
+
+<details>
+  <summary>Esquemas das coleções em JSON com os inserts</summary>
   Tela do Restaurante
 </details>
 
