@@ -18,8 +18,7 @@ Criar uma plataforma que facilite a comunicação entre restaurantes e empresas,
 * **Visibilidade para Restaurantes**: Plataforma serve como vitrine online para restaurantes expandirem sua base de clientes.
 
 
-## 🎬 Apresentação Final
-Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
+## 🎬 Apresentação
 
 <details>
   <summary>Diagrama MER</summary>
