@@ -28,12 +28,12 @@ Criar uma plataforma que facilite a comunicação entre restaurantes e empresas,
 </details>
 <details>
   <summary>Esquemas das coleções em JSON</summary>
-  Tela do Restaurante
+  <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/imagem%20(3).png" />
 </details>
 
 <details>
   <summary>Esquemas das coleções em JSON com os inserts</summary>
-  Tela do Restaurante
+  <img src="https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/imagem%20(2).png" />
 </details>
 
 ## 👥 Equipe
