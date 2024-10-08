@@ -1,0 +1,70 @@
+@startuml
+ 
+package "Coleções" {
+   
+    class Funcionario {
+        +ObjectId ID_Funcionario
+        +String Nome_Funcionario
+    }
+ 
+    class Usuario {
+        +ObjectId ID_Usuario
+        +String Tipo_Usuario
+        +String Senha
+        +String Email
+        +ObjectId ID_Empresa  // Referência à Empresa
+    }
+ 
+    class Empresa {
+        +ObjectId ID_Empresa
+        +String Nome_Empresa
+        +String CNPJ
+        +String CEP
+        +String Rua
+        +String Numero
+        +String Cidade
+        +String Estado
+        +List<ObjectId> Funcionarios  // Lista de Funcionários
+    }
+ 
+    class Prato {
+        +ObjectId ID_Prato
+        +Float Preco
+        +String Descricao_Prato
+        +String Nome_Prato
+    }
+ 
+    class Restaurante {
+        +ObjectId ID_Restaurante
+        +String Estado
+        +String Cidade
+        +String Numero
+        +String CEP
+        +String Nome_Restaurante
+        +String CNPJ
+        +ObjectId ID_Empresa  // Referência à Empresa
+    }
+ 
+    class Pedido_Funcionario {
+        +ObjectId ID_PedidoFunc
+        +Float Valor_Pedido
+    }
+ 
+    class Pedido_Empresa {
+        +ObjectId Numero_Pedido
+        +ObjectId ID_Pedido
+    }
+}
+ 
+Funcionario --> Empresa : "Possui (1,n)"
+Usuario --> Funcionario : "Realiza (1,1)"
+Usuario --> Empresa : "Pertence a (0,n)"  // Usuário pode estar vinculado a uma empresa
+Usuario --> Restaurante : "Associa a (0,n)"  // Usuário pode estar vinculado a restaurantes
+Restaurante --> Prato : "Disponibiliza (1,n)"
+Prato --> Pedido_Funcionario : "Contém (0,n)"
+Funcionario --> Pedido_Funcionario : "Contém (1,1)"
+Pedido_Empresa --> Restaurante : "Recebe (0,n)"
+Pedido_Funcionario --> Pedido_Empresa: "Recebe (1,n)"
+Empresa --> Pedido_Empresa: "Realiza (1,1)"
+ 
+@enduml

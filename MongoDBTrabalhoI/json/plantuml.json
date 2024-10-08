@@ -1,0 +1,88 @@
+@startjson
+{
+    "FoodClub": {
+        "Funcionarios": {
+            "id_funcionario": "001",
+            "nome_funcionario": "João Silva",
+            "empresa_id": "123"
+        },
+        "Usuarios": {
+            "id_usuario": "user_001",
+            "tipo_usuario": "cliente",
+            "senha": "senhaSegura",
+            "email": "usuario@exemplo.com",
+            "empresa_id": "123"
+        },
+        "Empresas": {
+            "id_empresa": "123",
+            "nome_empresa": "Restaurante XYZ",
+            "cnpj": "12.345.678/0001-99",
+            "endereco": {
+                "rua": "Av. Central",
+                "numero": "123",
+                "cep": "12345-678",
+                "cidade": "São Paulo",
+                "estado": "SP"
+            },
+            "funcionarios": [
+                {
+                    "id_funcionario": "001"
+                }
+            ],
+            "restaurantes": [
+                {
+                    "id_restaurante": "rest_001"
+                }
+            ],
+            "pedidos_empresa": [
+                {
+                    "numero_pedido": "ped_001"
+                }
+            ]
+        },
+        "Restaurantes": {
+            "id_restaurante": "rest_001",
+            "nome_restaurante": "Restaurante Saboroso",
+            "endereco": {
+                "rua": "Rua das Flores",
+                "numero": "456",
+                "cep": "65432-210",
+                "cidade": "São Paulo",
+                "estado": "SP"
+            },
+            "cnpj": "12.345.678/0001-99",
+            "pratos": [
+                {
+                    "id_prato": "prato_001"
+                }
+            ]
+        },
+        "Pratos": {
+            "id_prato": "prato_001",
+            "preco": 29.90,
+            "descricao_prato": "Prato do Dia",
+            "nome_prato": "Feijoada"
+        },
+        "Pedido_Funcionario": {
+            "id_pedido_func": "ped_001",
+            "valor_pedido": 59.80,
+            "funcionario_id": "001",
+            "pratos": [
+                {
+                    "id_prato": "prato_001"
+                }
+            ]
+        },
+        "Pedido_Empresa": {
+            "numero_pedido": "ped_001",
+            "id_pedido": "ped_001",
+            "empresa_id": "123",
+            "pratos": [
+                {
+                    "id_prato": "prato_001"
+                }
+            ]
+        }
+    }
+}
+@endjson
