@@ -22,7 +22,7 @@ Criar uma plataforma que facilite a comunicação entre restaurantes e empresas,
 
 <details>
   <summary>Diagrama MER</summary>
-  ![Texto Alternativo](./img/Conceitual_Trabalho.png)
+  ![Diagrama MER](https://github.com/alinnecardoso/MongoDBTrabalhoI/blob/main/img/Conceitual_Trabalho.png)
 </details>
 <details>
   <summary>Esquemas das coleções em JSON</summary>
